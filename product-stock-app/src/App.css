@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+textarea{
+  resize: none;
+}
+
+table{
+  margin: 20px;
+  border: 1px solid blue;
+  
+}
+
+
+.tableGrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.table td{
+  border: 1px solid red;
+  padding: 2px 20px;
+  
+  
+}
+
